@@ -11,3 +11,13 @@ function tocaSom (seletorAudio){
 
 }
    
+const listaDeteclas = document.querySelectorAll('.tecla');
+
+//para
+for(let contador< listaDeTeclas.length; contador++){
+
+    const tecla = listaDeTeclas[contador];
+    cont instrumento = tecla.classlist[1];
+    const idAudio = '#som_${instrumento}'; //template tring
+}
+
